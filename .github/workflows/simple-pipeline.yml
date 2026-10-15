@@ -7,7 +7,6 @@ on:
 jobs:
   build_stage:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
@@ -16,12 +15,10 @@ jobs:
         run: |
           echo "=== STARTING BUILD STAGE ==="
           echo "Installing application dependencies..."
-          
           echo "Build finished successfully!"
-    test_stage:
-      needs: build_stage
-      runs-on: ubuntu-latest
-
+  test_stage:
+    needs: build_stage
+    runs-on: ubuntu-latest
     steps:
       - name: Simulate Tests
         run: |
