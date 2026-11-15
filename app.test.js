@@ -18,3 +18,7 @@ describe("Classroom API", () => {
     expect(response.body.status).toBe("ok");
   });
 });
+<<<<<<< HEAD
+=======
+
+>>>>>>> f7873e7 (Initial project setup)

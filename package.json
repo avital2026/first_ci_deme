@@ -12,8 +12,11 @@
         "url": "git+https://github.com/avital2026/first_ci_deme.git"
     },
     "keywords": [],
+<<<<<<< HEAD
     "author": "",
     "license": "ISC",
+=======
+>>>>>>> f7873e7 (Initial project setup)
     "type": "commonjs",
     "bugs": {
         "url": "https://github.com/avital2026/first_ci_deme/issues"

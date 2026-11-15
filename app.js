@@ -1,5 +1,8 @@
 const express = require("express");
+<<<<<<< HEAD
 
+=======
+>>>>>>> f7873e7 (Initial project setup)
 const app = express();
 
 app.get("/", (req, res) => {
